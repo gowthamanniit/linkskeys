@@ -1,1 +1,58 @@
 https://www.supremainc.com/en/node/618
+
+
+//===============================================
+1. Run Microsoft SQL Server Management Studio.
+
+2. Expand the Security item in Object Explorer and right-click Logins and choose New Login….
+
+
+
+3. Enter an account name in the Login name field and choose SQL Server authentication. Then, enter a password for the account.
+
+4. Uncheck the following options to set the password as you want:
+
+Enforce password policy
+Enforce password expiration
+User must change password at next login
+If the options are checked, you should the password according to security policy in Windows.
+
+5. Choose BioStar from the Default database drop-down list.
+
+
+
+6. Go to the Server Roles page and select sysadmin.
+
+
+
+7. Go to the User Mapping page and choose BioStar and db_owner.
+
+
+
+8. Go to the Status page and set Permission to connect to database engine to Grant and Login to Enabled.
+
+
+
+9. Right-click the database server in Object Explorer and choose Properties.
+
+
+
+10. Go to the Security page and choose SQL Server and Windows Authentication mode.
+
+
+
+11. Right-click the database server and restart it. When a message box shows up, click YES.
+
+
+
+
+
+12. Disconnect the database server in Object Explorer and reconnect to it using the ID you've just created.
+
+
+
+13. Choose SQL Server Authentication from the Authentication drop-down list and enter the ID and password. Then, click Connect.
+
+
+
+14. If you succeed to connect to the database server, the account is successfully created. Run

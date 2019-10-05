@@ -5,3 +5,24 @@ https://resident.uidai.gov.in/verify-email-mobile
 //verify your pan no is lined with aadhar or not
 
 https://www1.incometaxindiaefiling.gov.in/e-FilingGS/Services/AadhaarPreloginStatus.html
+
+
+// pan card = aadhar card link (new)
+
+way 1:
+
+You have to type a message in the format.
+UIDPAN<12 Digit Aadhaar> <10 Digit PAN>
+Send the message to either 567678 or 56161 from your registered mobile number
+
+example:
+
+If your Aadhaar number is 987654321012 and your PAN is ABCDE1234F, 
+you have to type UIDPAN 987654321012 ABCDE1234F and send the message to either 567678 or 56161
+
+way2:
+
+https://www.incometaxindiaefiling.gov.in/home
+
+https://www1.incometaxindiaefiling.gov.in/e-FilingGS/Services/LinkAadhaarHome.html?lang=eng
+
